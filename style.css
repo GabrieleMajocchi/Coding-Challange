@@ -1,0 +1,86 @@
+body {
+  background-image: url("Img/background.jpg");
+  /* Posiziono l'immagine come sfondo */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Black-box {
+  /* Contenitore nero semi trasparente */
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1100px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 100px;
+  /* Lascio dello spazio dalla cima della pagina */
+  position: relative;
+  top: 20px;
+}
+
+header > h1 {
+  /* Stesso colore del logo */
+  color: rgb(0,221,0);
+  /* Font simile al logo Lim */
+  font-family: sans-serif;
+  /* Avvicino la scritta alla barra con i tasti */
+  margin: 1px;
+}
+
+header > img {
+  width: 270px;
+}
+
+header, nav {
+  text-align: center
+}
+
+nav {
+  /* Stesso colore del logo */
+  background-color: rgb(0,221,0);
+  padding: 10px;
+}
+
+main {
+  color: white;
+  /* Font simile al logo Lim */
+  font-family: sans-serif;
+}
+
+main > h2:before {
+  /* Aggiunta del quadratino prima della scritta, potevo metterlo anche dentro l'h2 */
+  content: "◼ ";
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+#Gino22-bar{
+  /* Barra carica monopattino Gino22 */
+  border-radius: 5px;
+  background: rgb(245,180,83);
+  width: 350px;
+  height: 30px;
+}
+
+#Mike24-bar{
+  /* Barra carica monopattino Mike24 */
+  border-radius: 5px;
+  background: rgb(30,195,30);
+  width: 650px;
+  height: 30px;
+}
+
+#Fede154-bar{
+  /* Barra carica monopattino Fede154 */
+  border-radius: 5px;
+  background: rgb(190,65,65);
+  width: 140px;
+  height: 30px;
+}
